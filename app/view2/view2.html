@@ -1,0 +1,47 @@
+<table class="table">
+  <div style="padding: 5px 5px 5px 700px;" align="right">
+    <form class="bs-example bs-example-form" role="form">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="input-group">
+            <input type="text" class="form-control" ng-model="searchName"/>
+            <span class="input-group-btn">
+                        <button class="btn btn-primary" type="button" ng-click="search()">Go name</button>
+                    </span>
+          </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+      </div><!-- /.row -->
+    </form>
+  </div>
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Status</th>
+    <th>Contact Detail</th>
+    <th>Action</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr ng-repeat="x in userList">
+    <td>{{x.id}}</td>
+    <td>{{x.name}}</td>
+    <td>{{x.status}}</td>
+    <td>{{x.contact}}</td>
+    <td><button class="btn btn-primary" ng-click="view(x)">View</button></td>
+  </tr>
+
+  </tbody>
+</table>
+
+
+  <ul class="pagination">
+    <li><a href="#">&laquo;</a></li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">&raquo;</a></li>
+  </ul>
+
