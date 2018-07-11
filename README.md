@@ -34,5 +34,5 @@ Now browse to the app at [`localhost:8000/index.html`].
 
 
 # Things to be done
-1. Update user info function is not working properly on front-end.
-2. Could have a more beautiful layout
+1. Update user info function is not working properly on front-end  -- With angular
+2. Could have a more beautiful layout  --- With bootstrap
