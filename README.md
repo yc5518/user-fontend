@@ -30,7 +30,9 @@ this server is:
 npm start
 ```
 
-Now browse to the app at [`localhost:8000/index.html`][local-app-url].
+Now browse to the app at [`localhost:8000/index.html`].
 
 
-
+# Things to be done
+1. Update user info function is not working properly on front-end.
+2. Could have a more beautiful layout
